@@ -1,11 +1,11 @@
 var doc = document.querySelector('img');
 doc.onclick = function(){
   var mySrc = doc.getAttribute('src');
-  if(mySrc === 'images/pi.jpg'){
-    doc.setAttribute('src','images/pi2.jpg');
+  if(mySrc === 'pi.jpg'){
+    doc.setAttribute('src','pi2.jpg');
   }
   else{
-    doc.setAttribute('src','images/pi.jpg');
+    doc.setAttribute('src','pi.jpg');
   }
 }
 var myButton = document.querySelector('button');
